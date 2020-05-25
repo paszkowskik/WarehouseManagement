@@ -1,0 +1,29 @@
+{
+  "name": "warehouse",
+  "version": "1.0.0",
+  "description": "Warehouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack-dev-server --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "file": "^0.2.2",
+    "fs": "0.0.1-security",
+    "html-webpack-plugin": "^4.3.0",
+    "require.js": "^1.0.0",
+    "system": "^2.0.1"
+  }
+}
